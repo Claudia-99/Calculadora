@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculadora</title>
+<link rel="stylesheet" type="text/css" href="css/calcula.css" />
+<script type="text/javascript" src="js/calcula.js"></script>
+</head>
+<body>
+<header>
+    <div class="Contenedor">
+        <h1>Calculadora</h1>
+    </div>
+</header>
+
+<div class="calculadora">
+<form action="#" name="calculadora" id="calculadora">
+<p id="textoPantalla">0</p>
+<p>
+<input type="button" value="Retr" onclick="retro()"   />
+<input type="button" value="CE" onclick="borradoParcial()"  />
+<input type="button" value="C" onclick="borradoTotal()"  />
+<input type="button" value="x!" onclick="FactorialNumero()"/>
+<input type="button" value="π" onclick="Pi()"/>
+</p>
+<p>
+<input type="button" value="sin" onclick="Sin()"/>
+<input type="button" value="cos" onclick="Cos()"/>
+<input type="button" value="tan" onclick="Tan()"/>
+<input type="button" value="log" onclick="Logaritmo()"/>
+<input type="button" value="ln" onclick="LogaritmoNatural()"/>
+</p>
+<p>
+<input type="button" value="x^2" onclick="NumeroAlCuadrado()"/>
+<input type="button" value="x^3" onclick="NumeroAlCubo()"/>
+<input type="button" value="x^y" onclick="operar('^')"/>
+<input type="button" value="e^x" onclick="ExponencialAlaPotencia()"/>
+<input type="button" value="e" onclick="Neper()"/>
+</p>
+<p>
+<input type="button" value="7" onclick="numero('7')" />
+<input type="button" value="8" onclick="numero('8')" />
+<input type="button" value="9" onclick="numero('9')" />
+<input type="button" value="/" onclick="operar('/')"  />
+<input type="button" value="Raiz" onclick="raizc()" />
+</p>
+<p>
+<input type="button" value="4" onclick="numero('4')" />
+<input type="button" value="5" onclick="numero('5')" />
+<input type="button" value="6" onclick="numero('6')" />
+<input type="button" value="*" onclick="operar('*')" />
+<input type="button" value="%" onclick="porcent()" />
+</p>
+<p>
+<input type="button" value="1" onclick="numero('1')" />
+<input type="button" value="2" onclick="numero('2')" />
+<input type="button" value="3" onclick="numero('3')" />
+<input type="button" value="-" onclick="operar('-')" />
+<input type="button" value="1/x" onclick="inve()" />
+</p>
+<p>
+<input type="button" value="0" onclick="numero('0')" />
+<input type="button" value="+/-" onclick="opuest()" />
+<input type="button" value="." onclick="numero('.')" />
+<input type="button" value="+" onclick="operar('+')" />
+<input type="button" value="=" onclick="igualar()" />
+</p>
+<p>
+<input type="button" value="Binario" onclick="binario()"/>
+<input type="button" value="Octal" onclick="octal()"/>
+<input type="button" value="Hexadecimal" onclick="hexadecimal()"/>
+</p>
+</form>
+</div>
+</div>
+<footer>
+    <div class="ContenedorFooter">
+        <p class="end">Creador de la p&aacute;gina: Claudia Cruz Olmos</p>
+    </div>
+</footer>
+</body>
+</body>
+</html>
